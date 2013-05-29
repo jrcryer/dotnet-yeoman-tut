@@ -15,7 +15,10 @@ define([
 
         onAppLoad: function() {
             var url = new UrlCollection();
-            var view = new UrlView({collection: url});
+            var view = new UrlView({
+                el: '#urls',
+                collection: url
+            });
         }
     });
 

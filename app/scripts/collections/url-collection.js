@@ -8,7 +8,9 @@ define([
     'use strict';
 
     var UrlCollection = Backbone.Collection.extend({
+
         model: UrlModel
+
     });
 
     return UrlCollection;
