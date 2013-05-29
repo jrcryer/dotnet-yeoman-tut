@@ -26,15 +26,15 @@ require.config({
         backbone: '../bower_components/backbone-amd/backbone',
         underscore: '../bower_components/underscore-amd/underscore',
         bootstrap: 'vendor/bootstrap',
-        app: 'app/app',
-        'app/models/url': 'app/models/url',
-        'app/collections/urls': 'app/collections/urls',
-        'app/views/urls': 'app/views/urls'
+        routes: 'routes/url-router',
+        model: 'app/models/url-model',
+        collection: 'collections/url-collection',
+        view: 'views/url-view'
     }
 });
 
 require([
-    'backbone', 'app'
+    'backbone', 'routes'
 ], function (Backbone, App) {
     var app = new App();
     Backbone.history.start();
