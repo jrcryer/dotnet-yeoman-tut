@@ -324,6 +324,7 @@ module.exports = function (grunt) {
         'usemin'
     ]);
 
+
     grunt.registerTask('default', [
         'jshint',
         'test',
