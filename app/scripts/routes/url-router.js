@@ -19,6 +19,7 @@ define([
                 el: '#urls',
                 collection: url
             });
+            view.render();
         }
     });
 
