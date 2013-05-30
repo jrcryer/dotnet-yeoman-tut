@@ -29,7 +29,7 @@ require.config({
 });
 
 require([
-  './models/url-model'
+  '../spec/models/url-model'
 ],
 function()  {
     mocha.run();

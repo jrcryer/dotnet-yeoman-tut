@@ -2,7 +2,7 @@
 'use strict';
 
 define(['../../../models/url-model'], function(UrlModel) {
-    describe('Give a URL', function () {
+    describe('A URL', function () {
 
         it('should have a URL for Google Shortener API', function () {
 
