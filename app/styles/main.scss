@@ -1,6 +1,57 @@
 @import 'sass-bootstrap/lib/bootstrap';
 
-.hero-unit {
-    margin: 50px auto 0 auto;
-    width: 300px;
+body {
+    background: #EFEFEF;
+}
+.content {
+    margin: 0 auto;
+    width: 450px;
+    background: white;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+    -o-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+    -moz-border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+h2 {
+    padding: 12px 0 0;
+    margin: 0 0 16px;
+    text-align: center;
+}
+
+form {
+    margin: 0;
+}
+input {
+    width: 98%;
+}
+
+#urls {
+    padding: 20px;
+}
+.url {
+    font-size: 21px;
+    padding: 12px 0;
+    border-bottom: 1px solid #CCC;
+}
+.short {
+    display: block;
+    max-height: 60px;
+    min-height: 23px;
+    overflow: hidden;
+    width: 420px;
+    word-wrap: break-word;
+    clear: both;
+    display: block;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.footer {
+    margin: 20px 0 0;
+    text-align: center;
 }
