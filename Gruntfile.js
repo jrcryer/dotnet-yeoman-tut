@@ -299,13 +299,12 @@ module.exports = function (grunt) {
         'mocha'
     ]);
 
-    grunt.registerTask('ci', [
+    grunt.registerTask('ci:build', [
         'clean:server',
         'coffee',
         'createDefaultTemplate',
         'jst',
-        'connect:test',
-        'mocha'
+        'connect:test:keepalive'
     ]);
 
     grunt.registerTask('build', [
