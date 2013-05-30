@@ -74,6 +74,8 @@ module.exports = function (grunt) {
                     middleware: function (connect) {
                         return [
                             mountFolder(connect, '.tmp'),
+                            mountFolder(connect, 'app/bower_components'),
+                            mountFolder(connect, 'app/scripts'),
                             mountFolder(connect, 'test')
                         ];
                     }
